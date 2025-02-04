@@ -3,24 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    
     <title>Productly</title>
 </head>
 <body>
     <header>
-        <h3><img src="images/logo-img.png" alt="Productly Logo"/> 
-            <img src="images/productly.png" alt="Productly name">
-        <!-- <span class="logo">Productly</span> -->
+        <section class="nav">
+        <h3><img class="logo-img" src="images/logo-img.png" alt="Productly Logo"/> 
+            <img class="productly" src="images/productly.png" alt="Productly name">
         </h3>
+        </section>
+        <section>
         <ul class="nav">
             <li><a href="pages/product.html">Product</a></li>
             <li><a href="pages/customers.html">Customers</a></li>
             <li><a href="pages/pricing.html">Pricing</a></li>
             <li><a href="pages/resources.html">Resources</a></li>
         </ul>
+        </section>
+        <section>
         <div class="nav-button">
             <button class="btn-signin">Sign In</button>
             <button class="btn-signup">Sign Up</button>
         </div>
+        </section>
     </header>
     <main>
         <section>
@@ -33,12 +41,12 @@
             </a>
         </section>
         <section>
-            <img src="images/main.png" alt="Happy people">
+            <img style="float: right;" class="main-img" src="images/main.png" alt="Happy people">
         </section>
 
         <section>
             <h2 class="subtitle">We design tools to unveil your superpowers</h2>
-            <section class="cards">
+            <section class="card">
                 <div class="card-one">
                     <img src="images/icon-violet.png" alt="Arrow">
                     <h4>First click tests</h4>
